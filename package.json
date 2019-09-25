@@ -1,7 +1,7 @@
 {
   "name": "gatsby-remark-music",
   "description": "Transform music nodes to SVG music sheets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Giorgio Garasto <giorgio@garasto.it>",
   "dependencies": {
     "@babel/runtime": "^7.6.0",
@@ -24,7 +24,9 @@
     "abc",
     "remark"
   ],
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
