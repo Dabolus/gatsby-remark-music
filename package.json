@@ -1,0 +1,42 @@
+{
+  "name": "gatsby-remark-music",
+  "description": "Transform music nodes to SVG music sheets",
+  "version": "0.0.0",
+  "author": "Giorgio Garasto <giorgio@garasto.it>",
+  "dependencies": {
+    "@babel/runtime": "^7.6.0",
+    "jsdom": "^15.1.1",
+    "remark-music": "^0.1.1",
+    "unist-util-visit": "^1.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "babel-preset-gatsby-package": "^0.2.5",
+    "cross-env": "^5.2.1",
+    "abcjs": "^5.8.1"
+  },
+  "homepage": "https://github.com/Dabolus/gatsby-remark-music",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "music",
+    "abc",
+    "remark"
+  ],
+  "files": ["index.js"],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "gatsby": "^2.0.0",
+    "abcjs": "^5.8.1"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore **/__tests__",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore **/__tests__"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
