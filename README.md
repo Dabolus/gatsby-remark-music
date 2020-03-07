@@ -1,6 +1,6 @@
 # gatsby-remark-music
 
-[gatsby-remark-music][1] adds math equation support to gatsby using
+[gatsby-remark-music][1] adds music sheet support to Gatsby using
 [remark-music][2] and [abc notation][3].
 
 ## Install
